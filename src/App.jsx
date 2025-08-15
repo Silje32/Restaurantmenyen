@@ -1,12 +1,14 @@
 import "./App.css";
-import meny from "./components/MenuList.jsx";
-import meny from "./data/MenuArray.jsx";
+import MenuList from "./components/MenuList.jsx";
+import OneDish from "./components/OneDish.jsx";
+import { meny } from "./data/MenuArray.jsx";
 
 function App() {
   return (
     <>
       <h1>Restaurantmenyen</h1>
-      <MenyList meny={meny} />
+      <MenuList meny={meny} />
+      <OneDish />
     </>
   );
 }
