@@ -6,11 +6,11 @@ export default function MenuList({ meny }) {
       <h1>MENY</h1>
       {meny.map((dish) => (
         <OneDish
-          key="id"
-          tittel="tittel"
-          pris="pris"
-          ingredienser="ingredienser"
-          kategori="kategori"
+          key="dish.id"
+          tittel="dish.tittel"
+          pris="dish.pris"
+          ingredienser="dish.ingredienser"
+          kategori="dish.kategori"
         />
       ))}
     </div>
