@@ -1,3 +1,5 @@
+import OneDish from "./OneDish.jsx";
+
 export default function MenuList({ meny }) {
   return (
     <div>
