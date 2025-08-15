@@ -1,13 +1,13 @@
-export default function OneDish(menu) {
-  console.log(menu);
+export default function OneDish({ tittel, pris, ingredienser, kategori }) {
+  console.log();
 
   return (
     <>
       <div>
-        <h1>{menu.tittel}</h1>
-        <h3>{menu.pris}</h3>
-        <h3>{menu.ingredienser}</h3>
-        <h3>{menu.kategori}</h3>
+        <h1>{tittel}</h1>
+        <h3>{pris}</h3>
+        <h3>{ingredienser}</h3>
+        <h3>{kategori}</h3>
       </div>
     </>
   );
