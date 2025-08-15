@@ -4,7 +4,7 @@ export default function OneDish({ tittel, pris, ingredienser, kategori }) {
   return (
     <>
       <div>
-        <h1>{tittel}</h1>
+        <h2>{tittel}</h2>
         <h3>{pris}</h3>
         <h3>{ingredienser}</h3>
         <h3>{kategori}</h3>
