@@ -1,5 +1,5 @@
 export default function OneDish(menu) {
-  console.log();
+  console.log(menu);
 
   return (
     <>
