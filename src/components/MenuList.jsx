@@ -1,15 +1,11 @@
-import { meny } from "../data/MenuArray.jsx";
-
-export function MenuList(dish) {
-  const [...rest] = tall;
+export default function MenuList(meny) {
+  const [...rest] = meny;
   console.log(...rest);
 
   return (
     <div>
       <h1>Restaurantmenyen</h1>
-      {dish.map((dish) => {
-        <MenuList meny={dish} />;
-      })}
+      {meny.map((dish) => {})}
     </div>
   );
 }
