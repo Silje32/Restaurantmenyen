@@ -1,10 +1,10 @@
-export default function MenuList(meny) {
-  const [...rest] = meny;
-  console.log(...rest);
+export default function MenuList() {
+  const meny = [];
+  console.log([]);
 
   return (
     <div>
-      <h1>Restaurantmenyen</h1>
+      <h1>RETTER</h1>
       {meny.map((dish) => {})}
     </div>
   );
