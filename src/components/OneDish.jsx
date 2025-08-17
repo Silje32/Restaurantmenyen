@@ -1,5 +1,6 @@
 export default function OneDish({ tittel, pris, ingredienser, kategori }) {
-  console.log();
+  const array = tittel;
+  console.log(array);
 
   return (
     <>
